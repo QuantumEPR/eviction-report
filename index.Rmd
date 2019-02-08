@@ -1,0 +1,26 @@
+---
+title: "Evictions Report"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("analysis.R")
+```
+## Zip code analysis
+Here is a table of the 10 zip codes with the highest number of evictions:
+
+```{r}
+kable(by_zip)
+```
+
+## Time Series Analysis
+We observed 
+```{r}
+month_plot
+```
+## Geographic analysis
+Here is the spatial distribution of evictions:
+```{r}
+
+```
